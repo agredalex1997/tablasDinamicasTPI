@@ -48,8 +48,6 @@ class TablaBusqueda extends HTMLElement{
         let celda = document.createElement('td');
         celda.id = 'celdaEntidad';
 
-        let jsonEntidad = []
-
         //Recibe un json con la busqueda deseada
         let crearTablaEntidad = function(busquedas, paginacion){
           let maxPage = Math.ceil(busquedas.length / paginacion); //AA
